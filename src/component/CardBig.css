@@ -1,0 +1,48 @@
+/* src/component/CardBig.css */
+
+.containerBig {
+  padding-left: 40px;
+}
+
+.posterBig {
+  width: 170px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.descriptionBig {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Verdana;
+  text-align: left;
+}
+
+#genre {
+  color: grey;
+  font-family: Verdana;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.stars {
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .containerBig {
+    padding: 0 40px;
+  }
+
+  #title {
+    font-size: 22px;
+  }
+}

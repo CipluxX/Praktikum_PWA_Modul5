@@ -1,0 +1,52 @@
+/* src/pages/DetailMovie.css */
+
+body {
+    background-color: #1e1e2f;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movie-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background-color: #4141e9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    font-size: 14px;
+    display: block;
+    width: fit-content;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-genre {
+    color: #b3b3b3;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .movie-description {
+    line-height: 1.6;
+    text-align: justify;
+  }
